@@ -8,7 +8,7 @@
 
 		text{
 			fill: #fff;
-			font-family: League Spartan;
+			font-family: league spartan;
 			letter-spacing: 5px;
 			text-anchor: middle;
 		}
