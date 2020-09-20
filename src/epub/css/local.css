@@ -1,6 +1,27 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* BC / AD style */
+abbr.era{
+	font-variant: all-small-caps;
+}
+
+/* Poetry CSS */
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
 /* All dedications */
 section[epub|type~="dedication"] > *{
 	display: inline-block;
