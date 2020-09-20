@@ -35,40 +35,38 @@
 		<meta property="term" refines="#subject-1">sh2008107781</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010118189</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">An ancient Chinese classic discussing the art of war.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu"&gt;&lt;span xml:lang="zh-Latn-wadegile"&gt;Sun Tzǔ’s&lt;/span&gt;&lt;/a&gt; ancient treatise on the art of war has exerted enormous influence over both Asian and Western soldiers, covering subjects ranging from morale and discipline to the correct use of spies. Despite questions about the historicity of the author, the text has stood the test of time and remains widely read by strategists, politicians, and even business leaders today.&lt;/p&gt;
+			&lt;p&gt;Though &lt;abbr&gt;Dr.&lt;/abbr&gt; Lionel Giles was not the first to translate &lt;span xml:lang="zh-Latn-wadegile"&gt;Sun Tzǔ&lt;/span&gt; into English, he was the first to do so in a systematic and scholarly manner. His translation was unequaled until the mid-20th century, and remains relevant today due to the copious notes provided by &lt;abbr&gt;Dr.&lt;/abbr&gt; Giles.&lt;/p&gt;
+		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/132</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The page scans originally included the Chinese text inline with the English text and the translator's notes, along with a concordance. We removed the Chinese text and concordance, but kept any Chinese characters used within the translator's notes.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Art_of_War</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sun-tzu_the-art-of-war_lionel-giles</meta>
 		<dc:creator id="author">Sun Tzu</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Sun Tzu</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Sun_Tzu</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80067475</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Lionel Giles</dc:contributor>
-		<meta property="file-as" refines="#translator">TRANSLATOR_SORT</meta>
+		<meta property="file-as" refines="#translator">Giles, Lionel</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Lionel_Giles</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">TRANSLATOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n83044370</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Bob Sutton</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Sutton, Bob</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jacob Heybey</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Heybey, Jacob</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
