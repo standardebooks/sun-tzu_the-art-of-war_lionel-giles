@@ -46,3 +46,12 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+/* For the date table */
+#introduction-1 table{
+	border-collapse: collapse;
+}
+
+#introduction-1 table td + td{
+	border-left: 2px solid;
+}
