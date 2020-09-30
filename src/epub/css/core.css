@@ -50,7 +50,7 @@ hgroup > *:first-child{
 	font-weight: bold;
 }
 
-blockquote + p,
+p.continued,
 h2 + p,
 h3 + p,
 h4 + p,
@@ -90,6 +90,12 @@ b,
 strong{
 	font-variant: small-caps;
 	font-weight: normal;
+}
+
+i > i,
+em > i,
+i > em{
+	font-style: normal;
 }
 
 header{
