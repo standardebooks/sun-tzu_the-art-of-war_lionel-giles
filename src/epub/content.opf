@@ -62,6 +62,8 @@
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
