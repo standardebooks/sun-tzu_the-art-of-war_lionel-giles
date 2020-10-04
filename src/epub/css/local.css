@@ -38,6 +38,7 @@ section[epub|type~="dedication"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
+	text-align: center;
 }
 
 @supports(display: flex){
