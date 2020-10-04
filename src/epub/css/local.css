@@ -1,5 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+/* Italicize foreign language blockquotes, but not those marked <i> */
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
+blockquote[xml|lang] i{
+	font-style: normal;
+}
 
 /* BC / AD style */
 abbr.era{
