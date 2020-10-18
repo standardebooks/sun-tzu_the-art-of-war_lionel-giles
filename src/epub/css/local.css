@@ -32,6 +32,11 @@ abbr.era{
 	display: none;
 }
 
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
 /* All dedications */
 section[epub|type~="dedication"] > *{
 	display: inline-block;
