@@ -64,15 +64,16 @@ section[epub|type~="dedication"] > *{
 /* End all dedications */
 
 /* For the date table */
-#translators-intro-1 table{
+table{
 	border-collapse: collapse;
+	margin: 1em;
 }
 
-#translators-intro-1 table td{
+table td{
 	padding-right: .25em;
 }
 
-#translators-intro-1 table td + td{
-	border-left: 2px solid;
+table td + td{
+	border-left: 1px solid;
 	padding-left: .25em;
 }
