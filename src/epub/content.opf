@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-10-21T02:39:24Z</dc:date>
+		<meta property="dcterms:modified">2020-10-21T02:39:24Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,16 +38,16 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">An ancient Chinese classic discussing the art of war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu"&gt;&lt;span lang="zh-Latn-wadegile"&gt;Sun Tzǔ’s&lt;/span&gt;&lt;/a&gt; ancient treatise on the art of war has exerted enormous influence over both Asian and Western soldiers, covering subjects ranging from morale and discipline to the correct use of spies. Despite questions about the historicity of the author, the text has stood the test of time and remains widely read by strategists, politicians, and even business leaders today.&lt;/p&gt;
-			&lt;p&gt;Though &lt;abbr&gt;Dr.&lt;/abbr&gt; Lionel Giles was not the first to translate &lt;span lang="zh-Latn-wadegile"&gt;Sun Tzǔ&lt;/span&gt; into English, he was the first to do so in a systematic and scholarly manner. His translation was unequaled until the mid-20th century, and remains relevant today due to the copious notes provided by &lt;abbr&gt;Dr.&lt;/abbr&gt; Giles.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu"&gt;&lt;span lang="zh-Latn-wadegile"&gt;Sun Tzu’s&lt;/span&gt;&lt;/a&gt; ancient treatise on the art of war has exerted enormous influence over both Asian and Western soldiers, covering subjects ranging from morale and discipline to the correct use of spies. Despite questions about the historicity of the author, the text has stood the test of time and remains widely read by strategists, politicians, and even business leaders today.&lt;/p&gt;
+			&lt;p&gt;Though Dr. Lionel Giles was not the first to translate &lt;span lang="zh-Latn-wadegile"&gt;Sun Tzu&lt;/span&gt; into English, he was the first to do so in a systematic and scholarly manner. His translation was unequaled until the mid-20th century, and remains relevant today due to his copious notes.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/132</dc:source>
 		<dc:source>https://archive.org/details/artofwaroldestmi00suntuoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/102056396</dc:source>
 		<meta property="se:production-notes">The page scans originally included the Chinese text inline with the English text and the translator's notes, along with a concordance. We removed the Chinese text and concordance, but kept any Chinese characters used within the translator's notes.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">24153</meta>
+		<meta property="se:reading-ease.flesch">67.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Art_of_War</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sun-tzu_the-art-of-war_lionel-giles</meta>
 		<dc:creator id="author">Sun Tzu</dc:creator>
@@ -78,6 +78,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
