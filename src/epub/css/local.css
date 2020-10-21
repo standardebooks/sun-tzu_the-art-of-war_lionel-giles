@@ -73,6 +73,10 @@ table td{
 	padding-right: .25em;
 }
 
+table td:first-child{
+	text-align: center;
+}
+
 table td + td{
 	border-left: 1px solid;
 	padding-left: .25em;
