@@ -46,7 +46,7 @@
 		<dc:source>https://archive.org/details/artofwaroldestmi00suntuoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/102056396</dc:source>
 		<meta property="se:production-notes">The page scans originally included the Chinese text inline with the English text and the translator's notes, along with a concordance. We removed the Chinese text and concordance, but kept any Chinese characters used within the translator's notes.</meta>
-		<meta property="se:word-count">24153</meta>
+		<meta property="se:word-count">24157</meta>
 		<meta property="se:reading-ease.flesch">67.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Art_of_War</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sun-tzu_the-art-of-war_lionel-giles</meta>
