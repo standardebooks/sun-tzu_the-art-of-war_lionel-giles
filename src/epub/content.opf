@@ -53,12 +53,12 @@
 		<dc:creator id="author">Sun Tzu</dc:creator>
 		<meta property="file-as" refines="#author">Sun Tzu</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Sun_Tzu</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80067475</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067475</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Lionel Giles</dc:contributor>
 		<meta property="file-as" refines="#translator">Giles, Lionel</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Lionel_Giles</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n83044370</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n83044370</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
