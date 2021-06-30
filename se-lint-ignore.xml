@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-086</code>
+			<reason>Loc. Cit. is appropriate here as it references a book in the same endnote.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
