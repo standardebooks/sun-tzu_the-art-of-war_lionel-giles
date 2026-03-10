@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore code="s-086">
+			<line>1911</line>
 			<reason>Loc. Cit. is appropriate here as it references a book in the same endnote.</reason>
 		</ignore>
 	</file>
