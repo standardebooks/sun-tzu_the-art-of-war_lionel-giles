@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/sun-tzu/the-art-of-war/lionel-giles</dc:identifier>
 		<dc:date>2020-10-21T02:39:24Z</dc:date>
 		<meta property="dcterms:modified">2020-10-21T02:39:24Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh2008107781</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010118189</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">An ancient Chinese classic discussing the art of war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/sun-tzu"&gt;&lt;span lang="zh-Latn-wadegile"&gt;Sun Tzu’s&lt;/span&gt;&lt;/a&gt; ancient treatise on the art of war has exerted enormous influence over both Asian and Western soldiers, covering subjects ranging from morale and discipline to the correct use of spies. Despite questions about the historicity of the author, the text has stood the test of time and remains widely read by strategists, politicians, and even business leaders today.&lt;/p&gt;
@@ -45,21 +46,22 @@
 		<dc:source>https://www.gutenberg.org/ebooks/132</dc:source>
 		<dc:source>https://archive.org/details/artofwaroldestmi00suntuoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/102056396</dc:source>
-		<meta property="se:production-notes">The page scans originally included the Chinese text inline with the English text and the translator's notes, along with a concordance. We removed the Chinese text and concordance, but kept any Chinese characters used within the translator's notes.</meta>
-		<meta property="se:word-count">24005</meta>
-		<meta property="se:reading-ease.flesch">67.59</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Art_of_War</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/sun-tzu_the-art-of-war_lionel-giles</meta>
+		<meta property="schema:wordCount">24005</meta>
+		<meta property="schema:educationalLevel">67.59</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Art_of_War" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/sun-tzu_the-art-of-war_lionel-giles" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Sun Tzu</dc:creator>
 		<meta property="file-as" refines="#author">Sun Tzu</meta>
 		<meta property="alternate-script" refines="#author">孫子</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Sun_Tzu</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067475</meta>
+		<link href="https://en.wikipedia.org/wiki/Sun_Tzu" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80067475.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Lionel Giles</dc:contributor>
 		<meta property="file-as" refines="#translator">Giles, Lionel</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Lionel_Giles</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n83044370</meta>
+		<link href="https://en.wikipedia.org/wiki/Lionel_Giles" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n83044370.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
@@ -81,7 +83,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

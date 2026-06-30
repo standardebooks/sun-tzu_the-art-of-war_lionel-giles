@@ -1,0 +1,1 @@
+The page scans originally included the Chinese text inline with the English text and the translator's notes, along with a concordance. We removed the Chinese text and concordance, but kept any Chinese characters used within the translator's notes.
